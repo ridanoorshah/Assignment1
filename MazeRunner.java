@@ -30,7 +30,7 @@ public class MazeRunner {
                 long stime = System.currentTimeMillis();
                 Thread thread = new Thread(new Runnable() {
                     public void run() {
-                        char maze[][] = new char[5][5];
+                        char maze[][] = new char[7][7];
                         maze = initializeMaze();
                         printMaze(maze);
                         playGame(maze);
